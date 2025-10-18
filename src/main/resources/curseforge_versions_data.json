@@ -1,0 +1,845 @@
+{
+  "/": "This json is grabbed from CurseForge author console, CurseForge API does not give accurate version data id, so this is a workaround to have accurate version data.",
+  "versionsData": [
+    [
+      {
+        "name": "Environment",
+        "validationGroupName": "environment",
+        "isRequired": false,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 9639,
+            "name": "Server"
+          },
+          {
+            "id": 9638,
+            "name": "Client"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Modloader",
+        "validationGroupName": "mc-modloader",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 10150,
+            "name": "NeoForge"
+          },
+          {
+            "id": 7498,
+            "name": "Forge"
+          },
+          {
+            "id": 7499,
+            "name": "Fabric"
+          },
+          {
+            "id": 9153,
+            "name": "Quilt"
+          },
+          {
+            "id": 7500,
+            "name": "Rift"
+          },
+          {
+            "id": 10677,
+            "name": "Flint Loader"
+          },
+          {
+            "id": 9967,
+            "name": "Risugami's ModLoader"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Java",
+        "validationGroupName": "java",
+        "isRequired": false,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 11136,
+            "name": "Java 22"
+          },
+          {
+            "id": 11135,
+            "name": "Java 21"
+          },
+          {
+            "id": 11134,
+            "name": "Java 20"
+          },
+          {
+            "id": 11133,
+            "name": "Java 19"
+          },
+          {
+            "id": 8634,
+            "name": "Java 18"
+          },
+          {
+            "id": 8326,
+            "name": "Java 17"
+          },
+          {
+            "id": 8325,
+            "name": "Java 16"
+          },
+          {
+            "id": 8324,
+            "name": "Java 15"
+          },
+          {
+            "id": 8323,
+            "name": "Java 14"
+          },
+          {
+            "id": 8322,
+            "name": "Java 13"
+          },
+          {
+            "id": 8321,
+            "name": "Java 12"
+          },
+          {
+            "id": 8320,
+            "name": "Java 11"
+          },
+          {
+            "id": 7113,
+            "name": "Java 10"
+          },
+          {
+            "id": 6762,
+            "name": "Java 9"
+          },
+          {
+            "id": 4458,
+            "name": "Java 8"
+          },
+          {
+            "id": 4457,
+            "name": "Java 7"
+          },
+          {
+            "id": 4456,
+            "name": "Java 6"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Minecraft 1.21",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 14001,
+            "name": "1.21.11-snapshot"
+          },
+          {
+            "id": 13964,
+            "name": "1.21.10"
+          },
+          {
+            "id": 13927,
+            "name": "1.21.9"
+          },
+          {
+            "id": 13696,
+            "name": "1.21.9-snapshot"
+          },
+          {
+            "id": 13620,
+            "name": "1.21.8"
+          },
+          {
+            "id": 13506,
+            "name": "1.21.7"
+          },
+          {
+            "id": 13422,
+            "name": "1.21.6"
+          },
+          {
+            "id": 13028,
+            "name": "1.21.6-snapshot"
+          },
+          {
+            "id": 12934,
+            "name": "1.21.5"
+          },
+          {
+            "id": 12503,
+            "name": "1.21.5-Snapshot"
+          },
+          {
+            "id": 12281,
+            "name": "1.21.4"
+          },
+          {
+            "id": 12116,
+            "name": "1.21.4-Snapshot"
+          },
+          {
+            "id": 12084,
+            "name": "1.21.3"
+          },
+          {
+            "id": 12079,
+            "name": "1.21.2"
+          },
+          {
+            "id": 11813,
+            "name": "1.21.2-Snapshot"
+          },
+          {
+            "id": 11779,
+            "name": "1.21.1"
+          },
+          {
+            "id": 11774,
+            "name": "1.21.1-Snapshot"
+          },
+          {
+            "id": 11457,
+            "name": "1.21"
+          },
+          {
+            "id": 11246,
+            "name": "1.21-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.20",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 11198,
+            "name": "1.20.6"
+          },
+          {
+            "id": 11163,
+            "name": "1.20.5"
+          },
+          {
+            "id": 10549,
+            "name": "1.20.5-Snapshot"
+          },
+          {
+            "id": 10407,
+            "name": "1.20.4"
+          },
+          {
+            "id": 10395,
+            "name": "1.20.3"
+          },
+          {
+            "id": 10266,
+            "name": "1.20.3-Snapshot"
+          },
+          {
+            "id": 10236,
+            "name": "1.20.2"
+          },
+          {
+            "id": 10162,
+            "name": "1.20.2-Snapshot"
+          },
+          {
+            "id": 9990,
+            "name": "1.20.1"
+          },
+          {
+            "id": 9971,
+            "name": "1.20"
+          },
+          {
+            "id": 9559,
+            "name": "1.20-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.19",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 9868,
+            "name": "1.19.4-Snapshot"
+          },
+          {
+            "id": 9776,
+            "name": "1.19.4"
+          },
+          {
+            "id": 9859,
+            "name": "1.19.3-Snapshot"
+          },
+          {
+            "id": 9550,
+            "name": "1.19.3"
+          },
+          {
+            "id": 9366,
+            "name": "1.19.2"
+          },
+          {
+            "id": 9259,
+            "name": "1.19.1"
+          },
+          {
+            "id": 9186,
+            "name": "1.19"
+          },
+          {
+            "id": 8993,
+            "name": "1.19-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.18",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 9008,
+            "name": "1.18.2"
+          },
+          {
+            "id": 8857,
+            "name": "1.18.1"
+          },
+          {
+            "id": 8830,
+            "name": "1.18"
+          },
+          {
+            "id": 8633,
+            "name": "1.18-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.17",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 8516,
+            "name": "1.17.1"
+          },
+          {
+            "id": 8282,
+            "name": "1.17-Snapshot"
+          },
+          {
+            "id": 8152,
+            "name": "1.17"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.16",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 8203,
+            "name": "1.16.5"
+          },
+          {
+            "id": 8134,
+            "name": "1.16.4"
+          },
+          {
+            "id": 8056,
+            "name": "1.16.3"
+          },
+          {
+            "id": 8010,
+            "name": "1.16.2"
+          },
+          {
+            "id": 7892,
+            "name": "1.16.1"
+          },
+          {
+            "id": 7890,
+            "name": "1.16"
+          },
+          {
+            "id": 7751,
+            "name": "1.16-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.15",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 7722,
+            "name": "1.15.2"
+          },
+          {
+            "id": 7675,
+            "name": "1.15.1"
+          },
+          {
+            "id": 7664,
+            "name": "1.15"
+          },
+          {
+            "id": 7519,
+            "name": "1.15-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.14",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 7469,
+            "name": "1.14.4"
+          },
+          {
+            "id": 7413,
+            "name": "1.14.3"
+          },
+          {
+            "id": 7361,
+            "name": "1.14.2"
+          },
+          {
+            "id": 7344,
+            "name": "1.14.1"
+          },
+          {
+            "id": 7318,
+            "name": "1.14"
+          },
+          {
+            "id": 7133,
+            "name": "1.14-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.13",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 7132,
+            "name": "1.13.2"
+          },
+          {
+            "id": 7107,
+            "name": "1.13.1"
+          },
+          {
+            "id": 7081,
+            "name": "1.13"
+          },
+          {
+            "id": 6834,
+            "name": "1.13-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.12",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 6756,
+            "name": "1.12.2"
+          },
+          {
+            "id": 6711,
+            "name": "1.12.1"
+          },
+          {
+            "id": 6580,
+            "name": "1.12"
+          },
+          {
+            "id": 6514,
+            "name": "1.12-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.11",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 6452,
+            "name": "1.11.2"
+          },
+          {
+            "id": 6451,
+            "name": "1.11.1"
+          },
+          {
+            "id": 6317,
+            "name": "1.11"
+          },
+          {
+            "id": 6239,
+            "name": "1.11-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.10",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 6170,
+            "name": "1.10.2"
+          },
+          {
+            "id": 6160,
+            "name": "1.10.1"
+          },
+          {
+            "id": 6144,
+            "name": "1.10"
+          },
+          {
+            "id": 6143,
+            "name": "1.10-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.9",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 6084,
+            "name": "1.9.4"
+          },
+          {
+            "id": 6085,
+            "name": "1.9.3"
+          },
+          {
+            "id": 5997,
+            "name": "1.9.2"
+          },
+          {
+            "id": 5998,
+            "name": "1.9.1"
+          },
+          {
+            "id": 5946,
+            "name": "1.9"
+          },
+          {
+            "id": 5707,
+            "name": "1.9-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.8",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 5806,
+            "name": "1.8.9"
+          },
+          {
+            "id": 5703,
+            "name": "1.8.8"
+          },
+          {
+            "id": 5642,
+            "name": "1.8.7"
+          },
+          {
+            "id": 4480,
+            "name": "1.8.6"
+          },
+          {
+            "id": 4479,
+            "name": "1.8.5"
+          },
+          {
+            "id": 4478,
+            "name": "1.8.4"
+          },
+          {
+            "id": 4466,
+            "name": "1.8.3"
+          },
+          {
+            "id": 4465,
+            "name": "1.8.2"
+          },
+          {
+            "id": 4463,
+            "name": "1.8.1"
+          },
+          {
+            "id": 4455,
+            "name": "1.8"
+          },
+          {
+            "id": 4450,
+            "name": "1.8-Snapshot"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.7",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 5912,
+            "name": "1.7.3"
+          },
+          {
+            "id": 4449,
+            "name": "1.7.10"
+          },
+          {
+            "id": 4448,
+            "name": "1.7.9"
+          },
+          {
+            "id": 4447,
+            "name": "1.7.8"
+          },
+          {
+            "id": 4446,
+            "name": "1.7.7"
+          },
+          {
+            "id": 4445,
+            "name": "1.7.6"
+          },
+          {
+            "id": 4444,
+            "name": "1.7.5"
+          },
+          {
+            "id": 367,
+            "name": "1.7.4"
+          },
+          {
+            "id": 361,
+            "name": "1.7.2"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.6",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 326,
+            "name": "1.6.4"
+          },
+          {
+            "id": 320,
+            "name": "1.6.2"
+          },
+          {
+            "id": 318,
+            "name": "1.6.1"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.5",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 312,
+            "name": "1.5.2"
+          },
+          {
+            "id": 280,
+            "name": "1.5.1"
+          },
+          {
+            "id": 279,
+            "name": "1.5.0"
+          },
+          {
+            "id": 9791,
+            "name": "1.5.3"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.4",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 272,
+            "name": "1.4.7"
+          },
+          {
+            "id": 268,
+            "name": "1.4.6"
+          },
+          {
+            "id": 4461,
+            "name": "1.4.5"
+          },
+          {
+            "id": 4460,
+            "name": "1.4.4"
+          },
+          {
+            "id": 255,
+            "name": "1.4.2"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.3",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 246,
+            "name": "1.3.2"
+          },
+          {
+            "id": 241,
+            "name": "1.3.1"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.2",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 204,
+            "name": "1.2.5"
+          },
+          {
+            "id": 4462,
+            "name": "1.2.4"
+          },
+          {
+            "id": 203,
+            "name": "1.2.3"
+          },
+          {
+            "id": 202,
+            "name": "1.2.2"
+          },
+          {
+            "id": 201,
+            "name": "1.2.1"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.1",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 186,
+            "name": "1.1"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft 1.0",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 180,
+            "name": "1.0.0"
+          },
+          {
+            "id": 4482,
+            "name": "1.0"
+          }
+        ]
+      },
+      {
+        "name": "Minecraft Beta",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 165,
+            "name": "Beta 1.8.1"
+          },
+          {
+            "id": 156,
+            "name": "Beta 1.7.3"
+          },
+          {
+            "id": 157,
+            "name": "Beta 1.7"
+          },
+          {
+            "id": 158,
+            "name": "Beta 1.6.6"
+          }
+        ]
+      }
+    ]
+  ]
+}
