@@ -65,6 +65,10 @@
         "selectionMode": 2,
         "choices": [
           {
+            "id": 14454,
+            "name": "Java 25"
+          },
+          {
             "id": 11136,
             "name": "Java 22"
           },
@@ -137,11 +141,27 @@
     ],
     [
       {
+        "name": "Minecraft 26",
+        "validationGroupName": "minecraft",
+        "isRequired": true,
+        "selectionMode": 2,
+        "choices": [
+          {
+            "id": 14446,
+            "name": "26.1-snapshot"
+          }
+        ]
+      },
+      {
         "name": "Minecraft 1.21",
         "validationGroupName": "minecraft",
         "isRequired": true,
         "selectionMode": 2,
         "choices": [
+          {
+            "id": 14406,
+            "name": "1.21.11"
+          },
           {
             "id": 14001,
             "name": "1.21.11-snapshot"
