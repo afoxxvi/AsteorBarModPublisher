@@ -20,6 +20,6 @@ val versionPairs = listOf(
 
 suspend fun main() {
     Config.initializePublisher()
-    ModrinthPublisher.publishModrinth(versionPairs, loaders)
+    ModrinthPublisher.publishModrinth(versionPairs, loaders.map { it.lowercase() })
     CurseForgePublisher.publishCurseForge(versionPairs, loaders)
 }
